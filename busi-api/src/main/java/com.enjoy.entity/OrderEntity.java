@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class OrderEntity implements Serializable{
-
     private String id;
     private long money;
     private String userId;
