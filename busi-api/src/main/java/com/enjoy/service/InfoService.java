@@ -1,9 +1,10 @@
 package com.enjoy.service;
 
+import java.rmi.Remote;
 import java.rmi.RemoteException;
 import java.util.Map;
 
-public interface InfoService {
+public interface InfoService extends Remote{
     String RMI_URL = "rmi://127.0.0.1:9080/InfoService";
     int port = 9080;
 
